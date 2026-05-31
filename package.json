@@ -1,0 +1,29 @@
+{
+  "name": "doculink",
+  "version": "1.0.0",
+  "description": "🤖 智能技术文档直译与排版工具 | An intelligent technical documentation translator that preserves Markdown structures (AST) and code blocks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j812619804/DocuLink.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/j812619804/DocuLink/issues"
+  },
+  "homepage": "https://github.com/j812619804/DocuLink#readme",
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "commander": "^15.0.0",
+    "dotenv": "^17.4.2",
+    "openai": "^6.39.1",
+    "tsx": "^4.22.3",
+    "typescript": "^6.0.3"
+  }
+}
