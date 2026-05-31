@@ -40,7 +40,7 @@ To guarantee professional translation quality, DocuLink processes your documenta
 1. Clone & Install Dependencies
 
 # Clone this repository
-git clone [https://github.com/j812619804/DocuLink.git](https://github.com/j812619804/DocuLink.git)
+git clone https://github.com/j812619804/DocuLink.git
 cd DocuLink
 
 # Install dependencies
@@ -52,7 +52,7 @@ npm install
 Create a .env file in the project root directory and add your LLM API credentials:
 
 LLM_API_KEY=your_api_key_here
-LLM_BASE_URL=[https://api.deepseek.com/v1](https://api.deepseek.com/v1)
+LLM_BASE_URL=https://api.deepseek.com/v1
 
 
 3. Run Translation
@@ -70,7 +70,7 @@ DocuLink 是一款专为开发者设计的智能技术文档直译与排版工�
 
 🌟 核心特性
 
-🔒 结构强力保护：通过高精度正则与 AST 预处理，完美锁死 Markdown 中的多行代码块（```js ... ```）及行内代码（`code`），防止大模型篡改或翻译。
+🔒 结构强力保护：通过高精度正则与 AST 预处理，完美锁死 Markdown 中的多行代码块（```js ... ```）及行行内代码（`code`），防止大模型篡改或翻译。
 
 💡 技术语义优化：内置高级 System Prompt，对计算机科学（CS）领域的专业术语（如 High Availability -> 高可用，Concurrency -> 并发）进行精准校对，告别粗糙机翻感。
 
@@ -100,7 +100,7 @@ DocuLink 是一款专为开发者设计的智能技术文档直译与排版工�
 1. 克隆并安装依赖
 
 # 克隆本项目到本地
-git clone [https://github.com/j812619804/DocuLink.git](https://github.com/j812619804/DocuLink.git)
+git clone https://github.com/j812619804/DocuLink.git
 cd DocuLink
 
 # 安装项目依赖
@@ -112,7 +112,7 @@ npm install
 在项目根目录下创建一个 .env 文件，并填入你的大模型 API 密钥：
 
 LLM_API_KEY=你的真实API密钥
-LLM_BASE_URL=[https://api.deepseek.com/v1](https://api.deepseek.com/v1)
+LLM_BASE_URL=https://api.deepseek.com/v1
 
 
 3. 一键翻译
